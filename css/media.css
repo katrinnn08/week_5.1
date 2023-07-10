@@ -1,0 +1,186 @@
+@media(max-width: 769px) {
+
+    .ul_flex {
+        display: none;
+    }
+
+.nav-button {
+        display: block;
+         position: fixed;
+         z-index: 9;
+         top: 30px;
+         right: 36px;
+     }
+
+nav.open .ul_flex{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left:0px;
+        right: 0;
+        flex-direction: column;
+        background-color: #ffff;
+        z-index: 1;
+        padding: 30px 40px;
+        align-items: center;
+        row-gap: 20px;
+        font-size: 50px;
+        font-weight: 600;
+        
+    
+    }
+
+
+.header {
+
+    text-align: center;
+}
+
+
+
+
+.btn {
+
+    padding-right: 60px;
+
+
+}
+
+.flex_left {
+
+
+width: 100%;
+align-items: center;
+align-content: center;
+justify-content: center;
+
+}
+
+.flex_left_right {
+
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    
+}
+
+
+    .lists {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+        
+    }
+
+
+    .list_mg{
+
+        margin-left: 0;
+    
+    }
+
+
+
+.list {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 80%;
+
+}
+
+
+.walking_man {
+
+    margin-top: 30px;
+    width: 90%;
+
+}
+
+.photos {
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.picture  {
+
+margin-bottom: 20px;
+
+}
+
+.container_explore {
+
+    flex-wrap: wrap;
+
+}
+
+.flying_man {
+
+    width: 90%;
+}
+
+
+.btn_explore {
+
+justify-content: center;
+}
+
+
+ .footer_wrap {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+
+.ul_footer {
+
+margin-top: 20px;
+width: 160px;
+
+}
+.menu_name {
+
+    color:#FB8F1D;  
+
+
+}
+
+
+.btn_explore {
+    display: block;
+    margin: 0 auto;
+}
+
+.subheader_flex {
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.log_in {
+
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+

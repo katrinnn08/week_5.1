@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -17,6 +18,7 @@
 <body>
 
 <header>
+<div class="container">
 <div class="header_wrap">
 
     <div class="logo_round">
@@ -24,38 +26,49 @@
     <div class="logo_orange"></div>
     </div>
 
-<ul class="ul_flex">
+<div class="header_two_wrap">
+    <nav id="nav" class="nav">
+    <ul class="ul_flex">
     <li class="ul_item ul_item_black"><a href="#" class="a_item">Home</a></li>
     <li class="ul_item"><a href="#" class="a_item ul_item_gray">Destination</a></li>
     <li class="ul_item"><a href="#" class="a_item ul_item_gray">About</a></li>
     <li class="ul_item"><a href="#" class="a_item ul_item_gray">Partner</a></li>
 </ul>
-
+<buttom id="nav-btn" class="nav-button">
+    <img  id="nav-btn-img" src="./icons/nav-open.svg"  alt="nav button">
+</buttom>
+</nav>
 <div class="btn">
     <form  method="post">
         <button class="log_in">Log in</button>
         <button class="register">Register</button>
     </form>
 </div>
+
+</div>
+</div>
 </div>
 </header>
 
 <main>
-<div class="container">    
-<div class="flex_left">
-<h1 class="header">Explore and<br>Travel</h1>
-<h2 class="subheader"> Holiday finder</h2>
-<div class="devider_black"></div>
-<form  class="lists"   action="#" method="POST">
-    <select class="list " name="Location" >
-        <option value="">Location</option>
-        <option value="1">Spain</option>
-        <option value="2">Germany</option>
-        <option value="3">Holland</option>
-        <option value="4">Greece</option>
-        <option value="5">Finnland</option>
-        <option value="6">England</option>
-    </select>
+<div class="container">  
+
+<div class="flex_left_right">
+    <div class="flex_left">
+            <h1 class="header">Explore and<br><span>Travel</span></h1>
+            <h2 class="subheader"> Holiday finder</h2>
+            <div class="devider_black"></div>
+    
+            <form  class="lists"   action="#" method="POST">
+                <select class="list " name="Location" >
+                <option value="">Location</option>
+                <option value="1">Spain</option>
+                <option value="2">Germany</option>
+                <option value="3">Holland</option>
+                <option value="4">Greece</option>
+                <option value="5">Finnland</option>
+                <option value="6">England</option>
+                </select>
 
     <select class="list list_mg " name="Activity" >
         <option value="">Activity</option>
@@ -82,15 +95,29 @@
         <option value="4">April</option>
         <option value="5">Mai</option>
     </select>
-</form>
-<button class="btn_explore">Explore</button>
-</div>
+    </form>
+    <button class="btn_explore">Explore</button>
+    </div>
+
+
+
+
+
 <div class="flex_right">
     <img class="walking_man" src="./img/walking_man.png" alt="Walking man">
 </div>
-</div>
-    
-<div class="container_destinations">   
+
+</div>  
+
+
+
+
+
+
+
+
+
+<div class="container">   
     
     <div class="subheader_flex">
         <h2 class="subheader_two">Featured destinations</h2>
@@ -134,13 +161,20 @@
 
 <button class="btn_explore">Learn more</button>
 </div>
-
+</div>
 
 </div>
 </main>
 
+
+
+
+
+
+
 <footer>
 <section class="footer">
+<div class="container">
 <div class="footer_wrap">
 <div class="col_one">
     <div class="item_logo">
@@ -202,7 +236,11 @@
     <a class="footer_social_item" href=""><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
 </div>
 
+
+</div>
 </section>
+
 </footer>
+<script src="./js/main.js"></script>
 </body>
 </html>
